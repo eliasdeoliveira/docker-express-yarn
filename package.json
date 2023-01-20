@@ -1,0 +1,16 @@
+{
+  "name": "docker-nodejs-express",
+  "version": "1.0.0",
+  "description": "Projeto exemplo nodejs com yarn e express com docker ",
+  "main": "src/index.js",
+  "scripts": {
+   "start": "node server.js",
+   "start-dev": "./node_modules/nodemon/bin/nodemon.js ."
+  },
+  "author": "Elias de Oliveira",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
